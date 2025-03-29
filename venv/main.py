@@ -10,7 +10,7 @@ from torch.utils.data import Dataset
 
 confidence = 0.6
 
-cap = cv2.VideoCapture(1)  # For Webcam
+cap = cv2.VideoCapture(0)  # For Webcam
 cap.set(3, 640)
 cap.set(4, 480)
 # cap = cv2.VideoCapture("../Videos/motorbikes.mp4")  # For Video
